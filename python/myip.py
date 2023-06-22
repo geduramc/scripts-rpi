@@ -11,7 +11,7 @@ HOST_NAME = 'rpi0'
 
 def get_api_token():
   response = requests.post(f'{API_URL}/api/auth', json = { 
-    'name:': HOST_NAME,
+    'name': HOST_NAME,
     'user': HOST_NAME,
     'key': API_API_KEY
   })

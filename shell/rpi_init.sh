@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MY_IP_SCRIPT="~/workspace/scripts/myip.py"
+MY_IP_SCRIPT="myip.py"
 
 echo "Init rpi0 - $(date)"
 
